@@ -1,0 +1,88 @@
+@media (max-width: 991px) {
+    #disCel {
+        display: block;
+    }
+    #disPC {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    #disCel {
+        display: none;
+    }
+    #disPC {
+        display: block;
+    }
+    #dis {
+        display: none;
+    }
+}
+
+/* Estilos generales */
+h2 {
+    text-align: center;
+    margin-top: 35px;
+}
+
+#title {
+    padding-right: 45px;
+}
+
+li {
+    padding-right: 45px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 20px;
+    background-color: #F8F9FA;
+}
+
+/* Estilos para las divisiones */
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9 {
+    background-color: white;
+    margin-inline-end: 20px;
+    margin-inline-start: 20px;
+}
+
+.div1 a {
+    text-decoration: underline;
+    color: black;
+    border: black;
+    border: solid gray 1px;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+}
+
+/* Estilos para enfoque y hover */
+#opciones:focus-within #menu {
+    display: block;
+}
+
+#carouselExampleSlidesOnly {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#opciones {
+    text-align: left;
+    border: none;
+    font-size: 15px;
+    margin-left: -12px;
+    margin-top: 10px;
+}
+
+#opciones:focus-within {
+    text-decoration: none;
+    outline: none;
+}
+
+#opciones:hover {
+    color: #C8DCDE;
+}
